@@ -9,6 +9,7 @@
 		"target": "es2017",
 		"sourceMap": true,
 		"baseUrl": "./",
+    "outDir": "./lib",
 		"incremental": true,
 		"skipLibCheck": true,
 		"strictNullChecks": false,
@@ -18,5 +19,8 @@
 		"noFallthroughCasesInSwitch": false,
 		"esModuleInterop": true,
 		"resolveJsonModule": true,
-	}
+    "strict": true
+	},
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
