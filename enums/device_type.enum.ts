@@ -1,0 +1,5 @@
+export enum DEVICE_TYPE {
+	ANDROID = 'ANDROID',
+	IOS = 'IOS',
+	WINDOWS = 'WINDOWS'
+}

@@ -1,0 +1,24 @@
+{
+  "name": "common-entities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faisalaliarain/common-entities.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faisalaliarain/common-entities/issues"
+  },
+  "homepage": "https://github.com/Faisalaliarain/common-entities#readme",
+  "dependencies": {
+    "randomstring": "^1.2.3",
+    "typeorm": "^0.3.11"
+  }
+}
