@@ -14,7 +14,7 @@ jobs:
     - name: publish to registery
       uses: actions/setup-node@v2
       with:
-       node-version: 16
+       node-version: 16.15.1
        registery-url: 'https://npm.pkg.github.com'
        scope: '@Faisalaliarain'
     - run: npm publish
