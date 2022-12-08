@@ -10,7 +10,7 @@ jobs:
     - name: checkout to repository
       uses: actions/checkout@v2
     - name: install and build
-      run:  ci 
+      run:  npm ci 
     - name: publish to registery
       uses: actions/setup-node@v2
       with:
