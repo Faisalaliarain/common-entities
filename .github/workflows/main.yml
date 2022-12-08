@@ -18,5 +18,3 @@ jobs:
        registery-url: 'https://npm.pkg.github.com'
        scope: '@Faisalaliarain'
     - run: npm publish
-      env:
-       NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
