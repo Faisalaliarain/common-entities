@@ -6,7 +6,7 @@ import {
   PrimaryColumn,
   UpdateDateColumn,
 } from "typeorm";
-import * as randomString from "randomString";
+import * as randomString from "randomstring";
 import { DEVICE_TYPE } from "../enums/device_type.enum";
 @Entity("user")
 export class User {
