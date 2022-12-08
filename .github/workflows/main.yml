@@ -12,7 +12,7 @@ jobs:
     - name: install and build
       run:  ci 
     - name: publish to registery
-      uses: action/setup-node@v2
+      uses: actions/setup-node@v2
       with:
        node-version: 16
        registery-url: 'https://npm.pkg.github.com'
